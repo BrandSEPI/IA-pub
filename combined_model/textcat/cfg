@@ -1,0 +1,9 @@
+{
+  "labels":[
+    "TRIP_ORDER",
+    "NOT_TRIP",
+    "NOT_FRENCH"
+  ],
+  "threshold":0.0,
+  "positive_label":null
+}

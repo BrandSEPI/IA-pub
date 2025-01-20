@@ -1,0 +1,753 @@
+sentenceID,sentence,label,departure,destination
+1,Réserver un billet pour Nantes,TRIP_ORDER,NULL,Nantes
+2,Aller à Lyon pour une réunion,TRIP_ORDER,NULL,Lyon
+3,This is not French,NOT_FRENCH,NULL,NULL
+4,Réserver un hôtel à Bordeaux,NOT_TRIP,NULL,NULL
+5,Visiter la Tour Eiffel,TRIP_ORDER,NULL,Paris
+6,Prendre le train pour Marseille,TRIP_ORDER,NULL,Marseille
+7,Je veux aller de Brest à Lyon,TRIP_ORDER,Brest,Lyon
+8,je suis à Marseille et je veux aller à Rennes,TRIP_ORDER,Marseille,Rennes
+9,Are you sure about that ?,NOT_FRENCH,NULL,NULL
+10,Je dois me rendre à Nice demain,TRIP_ORDER,NULL,Nice
+11,Can you help me with that?,NOT_FRENCH,NULL,NULL
+12,Rendez-vous à Marseille pour un concert,TRIP_ORDER,NULL,Marseille
+13,J'aimerais savoir où se trouve la gare,NOT_TRIP,NULL,NULL
+14,Organiser un voyage à Toulouse,TRIP_ORDER,NULL,Toulouse
+15,I want to go from Lyon to Nice,NOT_FRENCH,NULL,NULL
+16,J'ai réservé un vol pour Montpellier,TRIP_ORDER,NULL,Montpellier
+17,Je vais à la plage ce weekend,NOT_TRIP,NULL,NULL
+18,Récupérer un colis à Nantes,NOT_TRIP,NULL,NULL
+19,Aller à Strasbourg pour les fêtes,TRIP_ORDER,NULL,Strasbourg
+20,Je pars de Tours pour aller à Nice,TRIP_ORDER,Tours,Nice
+21,Démarrer de Lyon pour rejoindre Marseille,TRIP_ORDER,Lyon,Marseille
+22,Visiter la cathédrale à Reims,NOT_TRIP,NULL,NULL
+23,Prendre le train de Lille à Toulouse,TRIP_ORDER,Lille,Toulouse
+24,Je veux aller de Bordeaux à Bordeaux,NOT_TRIP,NULL,NULL
+25,Je dois prendre un vol de Nantes à Nice,TRIP_ORDER,Nantes,Nice
+26,Je vais de Marseille à Lyon pour un séminaire,TRIP_ORDER,Marseille,Lyon
+27,Can you tell me the time?,NOT_FRENCH,NULL,NULL
+28,Je veux savoir comment aller à la gare,NOT_TRIP,NULL,NULL
+29,Réserver une chambre d'hôtel à Paris,NOT_TRIP,NULL,NULL
+30,Je pars de Lille à Strasbourg,TRIP_ORDER,Lille,Strasbourg
+31,Visiter le Mont Saint-Michel,NOT_TRIP,NULL,NULL
+32,J'ai besoin d'un train pour Avignon,TRIP_ORDER,NULL,Avignon
+33,I am looking for a restaurant,NOT_FRENCH,NULL,NULL
+34,Rendre visite à des amis à Grenoble,TRIP_ORDER,NULL,Grenoble
+35,Je vais à Bruxelles ce week-end,NOT_FRENCH,NULL,NULL
+36,Je voyage de Nice à Lyon,TRIP_ORDER,Nice,Lyon
+37,Aller chercher un colis à Toulouse,NOT_TRIP,NULL,NULL
+38,Réserver un billet de train pour Montpellier,TRIP_ORDER,NULL,Montpellier
+39,Je suis à Angers et je veux aller à Lille,TRIP_ORDER,Angers,Lille
+40,How do I get to the museum?,NOT_FRENCH,NULL,NULL
+41,Je vais d'Bourges à Rennes pour un meeting,TRIP_ORDER,Bourges,Rennes
+42,Organiser un voyage à Marseille,TRIP_ORDER,NULL,Marseille
+43,Je veux savoir où est la bibliothèque,NOT_TRIP,NULL,NULL
+44,Prendre un bus de Nantes à Lyon,TRIP_ORDER,Nantes,Lyon
+45,Je suis à la maison,NOT_TRIP,NULL,NULL
+46,Je pars de Strasbourg pour aller à Mulhouse,TRIP_ORDER,Strasbourg,Mulhouse
+47,Je vais au cinéma ce soir,NOT_TRIP,NULL,NULL
+48,Récupérer un ami à l'aéroport de Bordeaux,NOT_TRIP,NULL,NULL
+49,Je vais à Toulouse pour un événement,TRIP_ORDER,NULL,Toulouse
+50,Visiter le château de Chambord,NOT_TRIP,NULL,NULL
+51,Aller de Rouen à Nevers pour le weekend,TRIP_ORDER,Rouen,Nevers
+52,J'ai besoin d'aide pour mon projet,NOT_FRENCH,NULL,NULL
+53,Réserver un train de Lyon à Marseille,TRIP_ORDER,Lyon,Marseille
+54,Je vais à La Rochelle cet été,TRIP_ORDER,NULL,La Rochelle
+55,Comment puis-je arriver à la gare?,NOT_TRIP,NULL,NULL
+56,Je pars de Lille pour Montluçon,TRIP_ORDER,Lille,Montluçon
+57,Je veux aller à l'aéroport de Nice,TRIP_ORDER,NULL,Nice
+58,Aller à Montpellier pour le festival,TRIP_ORDER,NULL,Montpellier
+59,This is a nice day,NOT_FRENCH,NULL,NULL
+60,Je vais à Metz pour des affaires,TRIP_ORDER,NULL,Metz
+61,Je suis fatigué aujourd'hui,NOT_TRIP,NULL,NULL
+62,Réserver un billet pour Nantes,TRIP_ORDER,NULL,Nantes
+63,Je veux aller de Châteauroux à Bruxelles,TRIP_ORDER,Châteauroux,Bruxelles
+64,Rendez-vous à la bibliothèque à Lyon,NOT_TRIP,NULL,NULL
+65,Je pars d'Avignon pour Aix-en-Provence,TRIP_ORDER,Avignon,Aix-en-Provence
+66,Je vais me promener,NOT_TRIP,NULL,NULL
+67,Prendre le train de Marseille à Nice,TRIP_ORDER,Marseille,Nice
+68,Je suis à l'école,NOT_TRIP,NULL,NULL
+69,Je veux aller au cinéma à Bordeaux,TRIP_ORDER,NULL,Bordeaux
+70,Visiter le musée d'Orsay à Paris,NOT_TRIP,NULL,NULL
+71,J'ai un rendez-vous à Lyon,NOT_TRIP,NULL,NULL
+72,Je pars de Nice pour Limoges demain,TRIP_ORDER,Nice,Limoges
+73,Je vais à l'opéra à Toulouse,NOT_TRIP,NULL,NULL
+74,Récupérer des documents à Nantes,NOT_TRIP,NULL,NULL
+75,Je voyage de Strasbourg à Lyon,TRIP_ORDER,Strasbourg,Lyon
+76,J'ai besoin d'un taxi pour l'aéroport,NOT_TRIP,NULL,NULL
+77,Aller de Bordeaux à Marseille pour le weekend,TRIP_ORDER,Bordeaux,Marseille
+78,Je vais à l'école demain,NOT_TRIP,NULL,NULL
+79,Réserver un vol de Niort à Toulouse,TRIP_ORDER,Niort,Toulouse
+80,Je pars en vacances,NOT_TRIP,NULL,NULL
+81,Je veux aller de Lille à Dijon,TRIP_ORDER,Lille,Dijon
+82,Récupérer un ami à l'aéroport de Nice,NOT_TRIP,NULL,NULL
+83,Aller à Lille pour le festival,TRIP_ORDER,NULL,Lille
+84,Je suis en train de lire,NOT_TRIP,NULL,NULL
+85,Réserver un hôtel à Lyon,NOT_TRIP,NULL,NULL
+86,Je voyage d'Avignon à Bordeaux,TRIP_ORDER,Avignon,Bordeaux
+87,Je veux un café,NOT_TRIP,NULL,NULL
+88,Visiter le jardin des Tuileries,NOT_TRIP,NULL,NULL
+89,Je vais à Rennes pour le concert,TRIP_ORDER,NULL,Rennes
+90,Aller à Strasbourg pour le marché de Noël,TRIP_ORDER,NULL,Strasbourg
+91,Je ne comprends pas,NOT_FRENCH,NULL,NULL
+92,Récupérer mes affaires à Bordeaux,NOT_TRIP,NULL,NULL
+93,Je pars de Nice à Marseille pour le week-end,TRIP_ORDER,Nice,Marseille
+94,J'ai besoin de plus de temps,NOT_TRIP,NULL,NULL
+95,Je vais de Lyon à Toulouse,TRIP_ORDER,Lyon,Toulouse
+96,Aller à Metz pour une réunion,TRIP_ORDER,NULL,Metz
+97,Visiter le château de Versailles,NOT_TRIP,NULL,NULL
+98,Je suis à Paris pour les vacances,NOT_TRIP,NULL,NULL
+99,Je vais de Nantes à Rennes pour un rendez-vous,TRIP_ORDER,Nantes,Rennes
+100,Je veux aller au supermarché,NOT_TRIP,NULL,NULL
+101,Je pars de Lyon pour Marseille demain,TRIP_ORDER,Lyon,Marseille
+102,Aller à Nice pour le week-end,TRIP_ORDER,NULL,Nice
+103,Where is the nearest train station?,NOT_FRENCH,NULL,NULL
+104,Réserver un vol pour Bordeaux,NOT_TRIP,NULL,NULL
+105,Je vais à Avignon pour les vacances,TRIP_ORDER,NULL,Avignon
+106,I need to find my way,NOT_FRENCH,NULL,NULL
+107,Récupérer un colis à Toulouse,NOT_TRIP,NULL,NULL
+108,Je voyage de Angoulême à Nantes,TRIP_ORDER,Angoulême,Nantes
+109,J'ai oublié mes clés à la maison,NOT_TRIP,NULL,NULL
+110,Visiter le Louvre à Paris,NOT_TRIP,NULL,NULL
+111,Je vais d'Aix-en-Provence à Marseille,TRIP_ORDER,Aix-en-Provence,Marseille
+112,Aller à Lyon pour un concert,TRIP_ORDER,NULL,Lyon
+113,Je suis en vacances à Nice,NOT_TRIP,NULL,NULL
+114,Je dois prendre le train pour Strasbourg,TRIP_ORDER,NULL,Strasbourg
+115,Can you help me find the bus?,NOT_FRENCH,NULL,NULL
+116,Réserver un train de Lille à Agen,TRIP_ORDER,Lille,Agen
+117,Je vais à Rennes pour un séminaire,TRIP_ORDER,NULL,Rennes
+118,Je veux un sandwich,NOT_TRIP,NULL,NULL
+119,Aller de Bordeaux à Nice pour le festival,TRIP_ORDER,Bordeaux,Nice
+120,Je ne comprends pas l'anglais,NOT_FRENCH,NULL,NULL
+121,Je pars de Montpellier à Lyon,TRIP_ORDER,Montpellier,Lyon
+122,Récupérer ma voiture à l'aéroport de Nice,NOT_TRIP,NULL,NULL
+123,Réserver un hôtel à Marseille,NOT_TRIP,NULL,NULL
+124,Je vais de Strasbourg à Dijon,TRIP_ORDER,Strasbourg,Dijon
+125,Aller à Paris pour le nouvel an,TRIP_ORDER,NULL,Paris
+126,Je suis à l'école aujourd'hui,NOT_TRIP,NULL,NULL
+127,Visiter le château de Chambord,NOT_TRIP,NULL,NULL
+128,Je pars d'Amiens à Lille,TRIP_ORDER,Amiens,Lille
+129,Je vais à La Rochelle pour les vacances,TRIP_ORDER,NULL,La Rochelle
+130,How do I get to the airport?,NOT_FRENCH,NULL,NULL
+131,Je vais à Grenoble pour une conférence,TRIP_ORDER,NULL,Grenoble
+132,Je veux un café au lait,NOT_TRIP,NULL,NULL
+133,Réserver un train de Marseille à Nice,TRIP_ORDER,Marseille,Nice
+134,Je suis à la maison,NOT_TRIP,NULL,NULL
+135,Récupérer mes affaires à l'université,NOT_TRIP,NULL,NULL
+136,Je voyage de Nantes à Rennes,TRIP_ORDER,Nantes,Rennes
+137,Visiter la cathédrale à Strasbourg,NOT_TRIP,NULL,NULL
+138,Je vais à Lille pour le festival,TRIP_ORDER,NULL,Lille
+139,Je suis dans le métro,NOT_TRIP,NULL,NULL
+140,Je pars de Brive-la-Gaillarde à Toulouse pour le week-end,TRIP_ORDER,Brive-la-Gaillarde,Toulouse
+141,Réserver un vol pour Lyon,NOT_TRIP,NULL,NULL
+142,Je vais à Rouen pour une réunion,TRIP_ORDER,NULL,Rouen
+143,Can I get a glass of water?,NOT_FRENCH,NULL,NULL
+144,Je veux aller à Bordeaux pour les vacances,TRIP_ORDER,NULL,Bordeaux
+145,Je suis dans le bus,NOT_TRIP,NULL,NULL
+146,Aller à Metz pour le festival de musique,TRIP_ORDER,NULL,Metz
+147,Je vais de Nice à Paris,TRIP_ORDER,Nice,Paris
+148,Je vais à la plage ce week-end,NOT_TRIP,NULL,NULL
+149,Je suis très fatigué,NOT_TRIP,NULL,NULL
+150,Visiter le musée Picasso à Paris,NOT_TRIP,NULL,NULL
+151,Réserver un train de Nantes à Lyon,TRIP_ORDER,Nantes,Lyon
+152,Je vais à Toulouse pour le festival,TRIP_ORDER,NULL,Toulouse
+153,Je suis très content aujourd'hui,NOT_TRIP,NULL,NULL
+154,Aller de Lyon à Marseille pour un concert,TRIP_ORDER,Lyon,Marseille
+155,J'ai besoin de mes documents,NOT_TRIP,NULL,NULL
+156,Je veux aller de Marseille à Nice,TRIP_ORDER,Marseille,Nice
+157,Visiter le jardin des plantes à Paris,NOT_TRIP,NULL,NULL
+158,Je vais à Clermont-Ferrand pour un séminaire,TRIP_ORDER,NULL,Clermont-Ferrand
+159,Je suis en train de travailler,NOT_TRIP,NULL,NULL
+160,Prendre le train de Dijon à Lyon,TRIP_ORDER,Dijon,Lyon
+161,Je vais au marché ce matin,NOT_TRIP,NULL,NULL
+162,Je pars d'Avignon à Toulouse,TRIP_ORDER,Avignon,Toulouse
+163,Je veux un gâteau,NOT_TRIP,NULL,NULL
+164,Aller à Bayonne pour le nouvel an,TRIP_ORDER,NULL,Bayonne
+165,Je suis très heureux,NOT_TRIP,NULL,NULL
+166,Récupérer ma valise à l'aéroport,NOT_TRIP,NULL,NULL
+167,Je voyage de Marseille à Bayonne,TRIP_ORDER,Marseille,Bayonne
+168,Visiter le musée d'Orsay à Paris,NOT_TRIP,NULL,NULL
+169,Je vais à Saint-Étienne pour un meeting,TRIP_ORDER,NULL,Saint-Étienne
+170,J'ai besoin de repos,NOT_TRIP,NULL,NULL
+171,Je pars de Lyon à Bordeaux demain,TRIP_ORDER,Lyon,Bordeaux
+172,Réserver un vol pour Toulouse,NOT_TRIP,NULL,NULL
+173,Je veux savoir où se trouve le restaurant,NOT_TRIP,NULL,NULL
+174,Aller de Nice à Strasbourg,TRIP_ORDER,Nice,Strasbourg
+175,Je suis à l'aéroport,NOT_TRIP,NULL,NULL
+176,Je vais à Nancy pour une conférence,TRIP_ORDER,NULL,Nancy
+177,Visiter le château de Versailles,NOT_TRIP,NULL,NULL
+178,Récupérer un ami à l'aéroport de Marseille,NOT_TRIP,NULL,NULL
+179,Je veux aller à Lille pour le weekend,TRIP_ORDER,NULL,Lille
+180,Je suis fatigué,NOT_TRIP,NULL,NULL
+181,Je pars de Bordeaux à Nantes,TRIP_ORDER,Bordeaux,Nantes
+182,Réserver un train pour Nice,NOT_TRIP,NULL,NULL
+183,Je vais à Angers pour le festival,TRIP_ORDER,NULL,Angers
+184,Aller à Paris pour les vacances,TRIP_ORDER,NULL,Paris
+185,Je suis content de te voir,NOT_TRIP,NULL,NULL
+186,Récupérer ma commande à la boutique,NOT_TRIP,NULL,NULL
+187,Je vais de Toulouse à Bordeaux,TRIP_ORDER,Toulouse,Bordeaux
+188,Visiter le parc de la Villette à Paris,NOT_TRIP,NULL,NULL
+189,Je suis à l'université,NOT_TRIP,NULL,NULL
+190,Aller à Marseille pour le festival de jazz,TRIP_ORDER,NULL,Marseille
+191,J'ai besoin d'un taxi pour l'aéroport,NOT_TRIP,NULL,NULL
+192,Je vais à Lyon pour les vacances,TRIP_ORDER,NULL,Lyon
+193,Réserver un hôtel à Nice,NOT_TRIP,NULL,NULL
+194,Je veux savoir comment aller au musée,NOT_TRIP,NULL,NULL
+195,Je pars de Nantes à Lille,TRIP_ORDER,Nantes,Lille
+196,Je vais à Clermont-Ferrand pour un événement,TRIP_ORDER,NULL,Clermont-Ferrand
+197,J'ai besoin d'aide pour mes devoirs,NOT_TRIP,NULL,NULL
+198,Récupérer mes affaires à la bibliothèque,NOT_TRIP,NULL,NULL
+199,Aller de Rouen à Carcassonne pour un concert,TRIP_ORDER,Rouen,Carcassonne
+200,Je suis au téléphone,NOT_TRIP,NULL,NULL
+201,Je pars de Lille à Bordeaux pour le week-end,TRIP_ORDER,Lille,Bordeaux
+202,Aller à Nîmes pour un concert,TRIP_ORDER,NULL,Nîmes
+203,Where can I find a good restaurant?,NOT_FRENCH,NULL,NULL
+204,Réserver un vol pour Marseille,NOT_TRIP,NULL,NULL
+205,Je vais à Annecy pour les vacances,TRIP_ORDER,NULL,Annecy
+206,I am looking for my keys,NOT_FRENCH,NULL,NULL
+207,Récupérer un colis à Montpellier,NOT_TRIP,NULL,NULL
+208,Je voyage de Dijon à Strasbourg,TRIP_ORDER,Dijon,Strasbourg
+209,J'ai oublié mon téléphone à la maison,NOT_TRIP,NULL,NULL
+210,Visiter le Palais des Papes à Avignon,NOT_TRIP,NULL,NULL
+211,Je vais de Nantes à Rouen,TRIP_ORDER,Nantes,Rouen
+212,Aller à Nice pour les vacances,TRIP_ORDER,NULL,Nice
+213,Je suis à Metz ce week-end,NOT_TRIP,NULL,NULL
+214,Je dois prendre le train pour Avignon,TRIP_ORDER,NULL,Avignon
+215,Can you help me find my way?,NOT_FRENCH,NULL,NULL
+216,Réserver un train de Bordeaux à Toulouse,TRIP_ORDER,Bordeaux,Toulouse
+217,Je vais à La Rochelle pour un séminaire,TRIP_ORDER,NULL,La Rochelle
+218,Je veux un café noir,NOT_TRIP,NULL,NULL
+219,Aller de Lyon à Dijon pour le festival,TRIP_ORDER,Lyon,Dijon
+220,Je ne comprends pas le français,NOT_FRENCH,NULL,NULL
+221,Je pars de Grenoble à Nice,TRIP_ORDER,Grenoble,Nice
+222,Récupérer ma voiture à l'aéroport de Bordeaux,NOT_TRIP,NULL,NULL
+223,Réserver un hôtel à Paris,NOT_TRIP,NULL,NULL
+224,Je vais de Montpellier à Lille,TRIP_ORDER,Montpellier,Lille
+225,Aller à Nantes pour le carnaval,TRIP_ORDER,NULL,Nantes
+226,Je suis à l'école ce matin,NOT_TRIP,NULL,NULL
+227,Visiter le château de Chenonceau,NOT_TRIP,NULL,NULL
+228,Je pars d'Avignon à Marseille,TRIP_ORDER,Avignon,Marseille
+229,Je vais à Saint-Malo pour les vacances,TRIP_ORDER,NULL,Saint-Malo
+230,How do I get to the nearest hospital?,NOT_FRENCH,NULL,NULL
+231,Je vais à Chambéry pour un rendez-vous,TRIP_ORDER,NULL,Chambéry
+232,Je veux un croissant,NOT_TRIP,NULL,NULL
+233,Réserver un train de Lyon à Nice,TRIP_ORDER,Lyon,Nice
+234,Je suis à la maison,NOT_TRIP,NULL,NULL
+235,Récupérer mes affaires à l'université,NOT_TRIP,NULL,NULL
+236,Je voyage de Toulouse à Lille,TRIP_ORDER,Toulouse,Lille
+237,Visiter la cathédrale de Chartres,NOT_TRIP,NULL,NULL
+238,Je vais à Perpignan pour un concert,TRIP_ORDER,NULL,Perpignan
+239,Je suis dans le bus,NOT_TRIP,NULL,NULL
+240,Je pars de Nice à Marseille,TRIP_ORDER,Nice,Marseille
+241,Réserver un vol pour Strasbourg,NOT_TRIP,NULL,NULL
+242,Je vais à Rouen pour une réunion,TRIP_ORDER,NULL,Rouen
+243,Can I get a cup of coffee?,NOT_FRENCH,NULL,NULL
+244,Je veux aller à Lyon pour les vacances,TRIP_ORDER,NULL,Lyon
+245,Je suis dans le métro à Paris,NOT_TRIP,NULL,NULL
+246,Aller à Brest pour le festival maritime,TRIP_ORDER,NULL,Brest
+247,Je vais de Metz à Brioude,TRIP_ORDER,Metz,Brioude
+248,Je vais à la plage à Biarritz,TRIP_ORDER,NULL,Biarritz
+249,This is a nice day,NOT_FRENCH,NULL,NULL
+250,Je pars de Dijon à Lyon demain,TRIP_ORDER,Dijon,Lyon
+251,Réserver un train pour Nantes,NOT_TRIP,NULL,NULL
+252,Je veux savoir où se trouve le musée,NOT_TRIP,NULL,NULL
+253,Aller de Nice à Toulouse,TRIP_ORDER,Nice,Toulouse
+254,Je suis à l'aéroport de Nice,NOT_TRIP,NULL,NULL
+255,Je vais à Avignon pour un événement,TRIP_ORDER,NULL,Avignon
+256,Visiter le musée Fabre à Montpellier,NOT_TRIP,NULL,NULL
+257,J'ai besoin d'aide pour mes devoirs,NOT_TRIP,NULL,NULL
+258,Récupérer mes affaires à la bibliothèque,NOT_TRIP,NULL,NULL
+259,Aller de Lille à Dijon pour un concert,TRIP_ORDER,Lille,Dijon
+260,Je suis au téléphone,NOT_TRIP,NULL,NULL
+261,Je vais à Cannes pour le festival de cinéma,TRIP_ORDER,NULL,Cannes
+262,Je veux un sandwich au jambon,NOT_TRIP,NULL,NULL
+263,Réserver un train de Nîmes à Lyon,TRIP_ORDER,Nîmes,Lyon
+264,Je vais à Rouen pour les vacances,TRIP_ORDER,NULL,Rouen
+265,Je suis très heureux aujourd'hui,NOT_TRIP,NULL,NULL
+266,Je vais à Tarbes pour un séminaire,TRIP_ORDER,NULL,Tarbes
+267,Visiter le parc des Buttes-Chaumont à Paris,NOT_TRIP,NULL,NULL
+268,Je pars d'Orléans à Tours,TRIP_ORDER,Orléans,Tours
+269,Réserver un vol pour Marseille,NOT_TRIP,NULL,NULL
+270,Je vais à Saint-Étienne pour un événement,TRIP_ORDER,NULL,Saint-Étienne
+271,J'ai besoin d'un taxi pour l'aéroport,NOT_TRIP,NULL,NULL
+272,Aller de Strasbourg à Lyon pour le week-end,TRIP_ORDER,Strasbourg,Lyon
+273,Je vais à Reims pour un mariage,TRIP_ORDER,NULL,Reims
+274,Je suis très fatigué aujourd'hui,NOT_TRIP,NULL,NULL
+275,Visiter le musée d'art moderne à Paris,NOT_TRIP,NULL,NULL
+276,Récupérer mes affaires à l'hôtel,NOT_TRIP,NULL,NULL
+277,Je pars de Nice à Lyon pour un meeting,TRIP_ORDER,Nice,Lyon
+278,Aller à Perpignan pour les vacances,TRIP_ORDER,NULL,Perpignan
+279,Je vais à Valence pour un concert,TRIP_ORDER,NULL,Valence
+280,Je suis en train de lire un livre,NOT_TRIP,NULL,NULL
+281,Réserver un train de Lille à Marseille,TRIP_ORDER,Lille,Marseille
+282,Je vais à Lyon pour un séminaire,TRIP_ORDER,NULL,Lyon
+283,J'ai besoin de repos ce week-end,NOT_TRIP,NULL,NULL
+284,Visiter le château de Versailles,NOT_TRIP,NULL,NULL
+285,Je pars d'Avignon à Toulouse demain,TRIP_ORDER,Avignon,Toulouse
+286,Je veux un thé glacé,NOT_TRIP,NULL,NULL
+287,Aller à Saint-Malo pour les vacances,TRIP_ORDER,NULL,Saint-Malo
+288,Je suis en train de travailler,NOT_TRIP,NULL,NULL
+289,Je vais de Lyon à Nantes,TRIP_ORDER,Lyon,Nantes
+290,Récupérer mes affaires à la gare,NOT_TRIP,NULL,NULL
+291,Aller de Bordeaux à Nîmes pour le week-end,TRIP_ORDER,Bordeaux,Nîmes
+292,Je vais à Caen pour un rendez-vous,TRIP_ORDER,NULL,Caen
+293,J'ai besoin de plus d'informations,NOT_TRIP,NULL,NULL
+294,Je pars de Strasbourg à Lille,TRIP_ORDER,Strasbourg,Lille
+295,Visiter le musée des Confluences à Lyon,NOT_TRIP,NULL,NULL
+296,Je suis au travail aujourd'hui,NOT_TRIP,NULL,NULL
+297,Je vais à Nancy pour les vacances,TRIP_ORDER,NULL,Nancy
+298,Aller à Bordeaux pour le nouvel an,TRIP_ORDER,NULL,Bordeaux
+299,Je suis content de te voir aujourd'hui,NOT_TRIP,NULL,NULL
+300,Je pars d'Orléans à Nîmes pour le week-end,TRIP_ORDER,Orléans,Nîmes
+301,Je pars de Marseille à Lyon pour un rendez-vous,TRIP_ORDER,Marseille,Lyon
+302,Aller à Tours pour une conférence,TRIP_ORDER,NULL,Tours
+303,Where is the nearest gas station?,NOT_FRENCH,NULL,NULL
+304,Réserver un vol pour Nice,NOT_TRIP,NULL,NULL
+305,Je vais à Cherbourg pour les vacances,TRIP_ORDER,NULL,Cherbourg
+306,I need directions to the bus station,NOT_FRENCH,NULL,NULL
+307,Récupérer un colis à Strasbourg,NOT_TRIP,NULL,NULL
+308,Je voyage de Lille à Toulouse,TRIP_ORDER,Lille,Toulouse
+309,Je vais acheter des légumes au marché,NOT_TRIP,NULL,NULL
+310,Visiter la cathédrale de Rouen,NOT_TRIP,NULL,NULL
+311,Je vais de Clermont-Ferrand à Nice,TRIP_ORDER,Clermont-Ferrand,Nice
+312,Aller à Lyon pour un spectacle,TRIP_ORDER,NULL,Lyon
+313,Je suis à Angers ce week-end,NOT_TRIP,NULL,NULL
+314,Je dois prendre le train pour Bordeaux,TRIP_ORDER,NULL,Bordeaux
+315,Can you show me the way?,NOT_FRENCH,NULL,NULL
+316,Réserver un train de Aix-en-Provence à Nice,TRIP_ORDER,Aix-en-Provence,Nice
+317,Je vais à Lille pour un séminaire,TRIP_ORDER,NULL,Lille
+318,Je veux un chocolat chaud,NOT_TRIP,NULL,NULL
+319,Aller de Marseille à Montpellier pour le festival,TRIP_ORDER,Marseille,Montpellier
+320,Je ne parle pas anglais,NOT_FRENCH,NULL,NULL
+321,Je pars de Rennes à Strasbourg,TRIP_ORDER,Rennes,Strasbourg
+322,Récupérer ma voiture à l'aéroport de Nice,NOT_TRIP,NULL,NULL
+323,Réserver un hôtel à Lyon,NOT_TRIP,NULL,NULL
+324,Je vais de Aix-en-Provence à Reims,TRIP_ORDER,Aix-en-Provence,Reims
+325,Aller à Bordeaux pour le vin,TRIP_ORDER,NULL,Bordeaux
+326,Je suis en classe aujourd'hui,NOT_TRIP,NULL,NULL
+327,Visiter le Mont-Saint-Michel,NOT_TRIP,NULL,NULL
+328,Je pars d'Orléans à Tours,TRIP_ORDER,Orléans,Tours
+329,Je vais à Saint-Denis pour le festival,TRIP_ORDER,NULL,Saint-Denis
+330,How do I get to the library?,NOT_FRENCH,NULL,NULL
+331,Je vais à Amiens pour un événement,TRIP_ORDER,NULL,Amiens
+332,Je veux un gâteau au chocolat,NOT_TRIP,NULL,NULL
+333,Réserver un train de Nice à Marseille,TRIP_ORDER,Nice,Marseille
+334,Je suis à la maison,NOT_TRIP,NULL,NULL
+335,Récupérer mes affaires à l'université,NOT_TRIP,NULL,NULL
+336,Je voyage de Montpellier à Cannes,TRIP_ORDER,Montpellier,Cannes
+337,Visiter le musée Picasso à Paris,NOT_TRIP,NULL,NULL
+338,Je vais à Caen pour un concert,TRIP_ORDER,NULL,Caen
+339,Je suis dans le métro à Lyon,NOT_TRIP,NULL,NULL
+340,Je pars de Lille à Strasbourg pour un événement,TRIP_ORDER,Lille,Strasbourg
+341,Réserver un vol pour Marseille,NOT_TRIP,NULL,NULL
+342,Je vais à Rouen pour une réunion,TRIP_ORDER,NULL,Rouen
+343,Can I get a cup of tea?,NOT_FRENCH,NULL,NULL
+344,Je veux aller à Lyon pour les vacances,TRIP_ORDER,NULL,Lyon
+345,Je suis dans le tram,NOT_TRIP,NULL,NULL
+346,Aller à Montluçon pour le festival de musique,TRIP_ORDER,NULL,Montluçon
+347,Je vais de Reims à Dijon,TRIP_ORDER,Reims,Dijon
+348,Je vais à la plage à La Rochelle,TRIP_ORDER,NULL,La Rochelle
+349,This is a beautiful day,NOT_FRENCH,NULL,NULL
+350,Je pars de Bordeaux à Nantes demain,TRIP_ORDER,Bordeaux,Nantes
+351,Réserver un train pour Avignon,NOT_TRIP,NULL,NULL
+352,Je veux savoir où se trouve le café,NOT_TRIP,NULL,NULL
+353,Aller de Nice à Bordeaux pour le week-end,TRIP_ORDER,Nice,Bordeaux
+354,Je suis à l'aéroport de Lyon,NOT_TRIP,NULL,NULL
+355,Je vais à Toulouse pour un séminaire,TRIP_ORDER,NULL,Toulouse
+356,Visiter le jardin des Tuileries à Paris,NOT_TRIP,NULL,NULL
+357,J'ai besoin d'aide pour mon projet,NOT_TRIP,NULL,NULL
+358,Récupérer mes affaires à la gare,NOT_TRIP,NULL,NULL
+359,Aller de Strasbourg à Lyon pour un concert,TRIP_ORDER,Strasbourg,Lyon
+360,Je vais à Calais pour les vacances,TRIP_ORDER,NULL,Calais
+361,J'ai besoin d'un taxi pour l'aéroport,NOT_TRIP,NULL,NULL
+362,Je vais à Nancy pour une conférence,TRIP_ORDER,NULL,Nancy
+363,Réserver un hôtel à Montpellier,NOT_TRIP,NULL,NULL
+364,Je veux un soda,NOT_TRIP,NULL,NULL
+365,Je pars de Rouen à Lille,TRIP_ORDER,Rouen,Lille
+366,Visiter le château de Chambord,NOT_TRIP,NULL,NULL
+367,Je suis à l'université,NOT_TRIP,NULL,NULL
+368,Je vais à Tours pour les vacances,TRIP_ORDER,NULL,Tours
+369,Aller à Strasbourg pour le nouvel an,TRIP_ORDER,NULL,Strasbourg
+370,Je suis très content,NOT_TRIP,NULL,NULL
+371,Récupérer ma commande à la boutique,NOT_TRIP,NULL,NULL
+372,Je voyage de Grenoble à Marseille,TRIP_ORDER,Grenoble,Marseille
+373,Visiter le parc de la Villette à Paris,NOT_TRIP,NULL,NULL
+374,Je vais à Perpignan pour le festival,TRIP_ORDER,NULL,Perpignan
+375,Je suis très fatigué,NOT_TRIP,NULL,NULL
+376,Je pars de Nantes à Lyon pour un meeting,TRIP_ORDER,Nantes,Lyon
+377,Aller à Bordeaux pour un rendez-vous,TRIP_ORDER,NULL,Bordeaux
+378,Je vais à Lyon pour un événement,TRIP_ORDER,NULL,Lyon
+379,J'ai besoin de repos ce week-end,NOT_TRIP,NULL,NULL
+380,Réserver un train de Marseille à Nice,TRIP_ORDER,Marseille,Nice
+381,Je vais à Clermont-Ferrand pour un rendez-vous,TRIP_ORDER,NULL,Clermont-Ferrand
+382,Je veux un thé vert,NOT_TRIP,NULL,NULL
+383,Aller de Lille à Lyon pour le week-end,TRIP_ORDER,Lille,Lyon
+384,Je suis dans le train à destination de Paris,NOT_TRIP,NULL,NULL
+385,Je vais à Cherbourg pour un concert,TRIP_ORDER,NULL,Cherbourg
+386,Je pars de Marseille à Toulouse pour le festival,TRIP_ORDER,Marseille,Toulouse
+387,Visiter le musée d'Orsay à Paris,NOT_TRIP,NULL,NULL
+388,Je vais à Dijon pour les vacances,TRIP_ORDER,NULL,Dijon
+389,Can you help me with this task?,NOT_FRENCH,NULL,NULL
+390,Réserver un train pour Strasbourg,NOT_TRIP,NULL,NULL
+391,Je veux aller à Lyon pour les vacances,TRIP_ORDER,NULL,Lyon
+392,Je suis au travail aujourd'hui,NOT_TRIP,NULL,NULL
+393,Je pars d'Orléans à Lille,TRIP_ORDER,Orléans,Lille
+394,Aller à Saint-Denis pour le nouvel an,TRIP_ORDER,NULL,Saint-Denis
+395,Je vais à Caen pour un mariage,TRIP_ORDER,NULL,Caen
+396,J'ai besoin de plus d'informations,NOT_TRIP,NULL,NULL
+397,Je vais de Nice à Lyon pour le week-end,TRIP_ORDER,Nice,Lyon
+398,Visiter le château de Versailles,NOT_TRIP,NULL,NULL
+399,Je suis très heureux aujourd'hui,NOT_TRIP,NULL,NULL
+400,Je pars de Montpellier à Bordeaux pour un événement,TRIP_ORDER,Montpellier,Bordeaux
+401,Je vais de Hyères à Nice pour les vacances,TRIP_ORDER,Hyères,Nice
+402,Aller à Lyon pour un séminaire,TRIP_ORDER,NULL,Lyon
+403,Can you give me a ride?,NOT_FRENCH,NULL,NULL
+404,Réserver un hôtel à Marseille,NOT_TRIP,NULL,NULL
+405,Je pars de Bordeaux à Rennes,TRIP_ORDER,Bordeaux,Rennes
+406,I don't understand this sentence,NOT_FRENCH,NULL,NULL
+407,Récupérer un colis à Toulouse,NOT_TRIP,NULL,NULL
+408,Je voyage de Lyon à Strasbourg,TRIP_ORDER,Lyon,Strasbourg
+409,Je vais faire les courses,NOT_TRIP,NULL,NULL
+410,Visiter le Palais des Papes à Avignon,NOT_TRIP,NULL,NULL
+411,Je vais de Lille à Marseille,TRIP_ORDER,Lille,Marseille
+412,Aller à Nice pour le carnaval,TRIP_ORDER,NULL,Nice
+413,Je suis à Angers ce week-end,NOT_TRIP,NULL,NULL
+414,Je dois prendre le train pour Antibes,TRIP_ORDER,NULL,Antibes
+415,How do I get to the nearest pharmacy?,NOT_FRENCH,NULL,NULL
+416,Réserver un train de Lyon à Bordeaux,TRIP_ORDER,Lyon,Bordeaux
+417,Je vais à Toulouse pour un concert,TRIP_ORDER,NULL,Toulouse
+418,Je veux une baguette,NOT_TRIP,NULL,NULL
+419,Aller de Marseille à Rouen pour le festival,TRIP_ORDER,Marseille,Rouen
+420,Je ne parle pas français,NOT_FRENCH,NULL,NULL
+421,Je pars de Clermont-Ferrand à Nice,TRIP_ORDER,Clermont-Ferrand,Nice
+422,Récupérer ma voiture à l'aéroport de Lyon,NOT_TRIP,NULL,NULL
+423,Réserver un hôtel à Nantes,NOT_TRIP,NULL,NULL
+424,Je vais de Antibes à Lille,TRIP_ORDER,Antibes,Lille
+425,Aller à Bordeaux pour le vin,TRIP_ORDER,NULL,Bordeaux
+426,Je suis en classe aujourd'hui,NOT_TRIP,NULL,NULL
+427,Visiter le Mont-Saint-Michel,NOT_TRIP,NULL,NULL
+428,Je pars d'Orléans à Bordeaux,TRIP_ORDER,Orléans,Bordeaux
+429,Je vais à Saint-Malo pour le festival,TRIP_ORDER,NULL,Saint-Malo
+430,How do I get to the library?,NOT_FRENCH,NULL,NULL
+431,Je vais à Amiens pour un événement,TRIP_ORDER,NULL,Amiens
+432,Je veux un gâteau aux fruits,NOT_TRIP,NULL,NULL
+433,Réserver un train de Nice à Lyon,TRIP_ORDER,Nice,Lyon
+434,Je suis à la maison,NOT_TRIP,NULL,NULL
+435,Récupérer mes affaires à l'université,NOT_TRIP,NULL,NULL
+436,Je voyage de Montpellier à Antibes,TRIP_ORDER,Montpellier,Antibes
+437,Visiter le musée Picasso à Paris,NOT_TRIP,NULL,NULL
+438,Je vais à Caen pour un concert,TRIP_ORDER,NULL,Caen
+439,Je suis dans le métro à Lyon,NOT_TRIP,NULL,NULL
+440,Je pars de Lille à Strasbourg pour un événement,TRIP_ORDER,Lille,Strasbourg
+441,Réserver un vol pour Marseille,NOT_TRIP,NULL,NULL
+442,Je vais à Rouen pour une réunion,TRIP_ORDER,NULL,Rouen
+443,Can I get a cup of coffee?,NOT_FRENCH,NULL,NULL
+444,Je veux aller à Lyon pour les vacances,TRIP_ORDER,NULL,Lyon
+445,Je suis dans le tram,NOT_TRIP,NULL,NULL
+446,Aller à Montluçon pour le festival de musique,TRIP_ORDER,NULL,Montluçon
+447,Je vais de Reims à Dijon,TRIP_ORDER,Reims,Dijon
+448,Je vais à la plage à La Rochelle,TRIP_ORDER,NULL,La Rochelle
+449,This is a wonderful day,NOT_FRENCH,NULL,NULL
+450,Je pars de Bordeaux à Nantes demain,TRIP_ORDER,Bordeaux,Nantes
+451,Réserver un train pour Avignon,NOT_TRIP,NULL,NULL
+452,Je veux savoir où se trouve le café,NOT_TRIP,NULL,NULL
+453,Aller de Nice à Bordeaux pour le week-end,TRIP_ORDER,Nice,Bordeaux
+454,Je suis à l'aéroport de Lyon,NOT_TRIP,NULL,NULL
+455,Je vais à Toulouse pour un séminaire,TRIP_ORDER,NULL,Toulouse
+456,Visiter le jardin des Tuileries à Paris,NOT_TRIP,NULL,NULL
+457,J'ai besoin d'aide pour mon projet,NOT_TRIP,NULL,NULL
+458,Récupérer mes affaires à la gare,NOT_TRIP,NULL,NULL
+459,Aller de Strasbourg à Lyon pour un concert,TRIP_ORDER,Strasbourg,Lyon
+460,Je vais à Calais pour les vacances,TRIP_ORDER,NULL,Calais
+461,J'ai besoin d'un taxi pour l'aéroport,NOT_TRIP,NULL,NULL
+462,Je vais à Nancy pour une conférence,TRIP_ORDER,NULL,Nancy
+463,Réserver un hôtel à Montpellier,NOT_TRIP,NULL,NULL
+464,Je veux un soda,NOT_TRIP,NULL,NULL
+465,Je pars de Rouen à Lille,TRIP_ORDER,Rouen,Lille
+466,Visiter le château de Chambord,NOT_TRIP,NULL,NULL
+467,Je suis à l'université,NOT_TRIP,NULL,NULL
+468,Je vais à Tours pour les vacances,TRIP_ORDER,NULL,Tours
+469,Aller à Strasbourg pour le nouvel an,TRIP_ORDER,NULL,Strasbourg
+470,Je suis très content,NOT_TRIP,NULL,NULL
+471,Récupérer ma commande à la boutique,NOT_TRIP,NULL,NULL
+472,Je voyage de Grenoble à Marseille,TRIP_ORDER,Grenoble,Marseille
+473,Visiter le parc de la Villette à Paris,NOT_TRIP,NULL,NULL
+474,Je vais à Perpignan pour le festival,TRIP_ORDER,NULL,Perpignan
+475,Je suis très fatigué,NOT_TRIP,NULL,NULL
+476,Je pars de Nantes à Lyon pour un meeting,TRIP_ORDER,Nantes,Lyon
+477,Aller à Bordeaux pour un rendez-vous,TRIP_ORDER,NULL,Bordeaux
+478,Je vais à Lyon pour un événement,TRIP_ORDER,NULL,Lyon
+479,J'ai besoin de repos ce week-end,NOT_TRIP,NULL,NULL
+480,Réserver un train de Marseille à Nice,TRIP_ORDER,Marseille,Nice
+481,Je vais à Clermont-Ferrand pour un rendez-vous,TRIP_ORDER,NULL,Clermont-Ferrand
+482,Je veux un thé glacé,NOT_TRIP,NULL,NULL
+483,Aller de Lille à Lyon pour le week-end,TRIP_ORDER,Lille,Lyon
+484,Je suis dans le train à destination de Paris,NOT_TRIP,NULL,NULL
+485,Je vais à Cherbourg pour un concert,TRIP_ORDER,NULL,Cherbourg
+486,Je pars de Marseille à Toulouse pour le festival,TRIP_ORDER,Marseille,Toulouse
+487,Visiter le musée d'Orsay à Paris,NOT_TRIP,NULL,NULL
+488,Je vais à Dijon pour les vacances,TRIP_ORDER,NULL,Dijon
+489,Can you help me with this task?,NOT_FRENCH,NULL,NULL
+490,Réserver un train pour Strasbourg,NOT_TRIP,NULL,NULL
+491,Je veux aller à Lyon pour les vacances,TRIP_ORDER,NULL,Lyon
+492,Je suis au travail aujourd'hui,NOT_TRIP,NULL,NULL
+493,Je pars d'Orléans à Lille,TRIP_ORDER,Orléans,Lille
+494,Aller à Saint-Denis pour le nouvel an,TRIP_ORDER,NULL,Saint-Denis
+495,Je vais à Caen pour un mariage,TRIP_ORDER,NULL,Caen
+496,J'ai besoin de plus d'informations,NOT_TRIP,NULL,NULL
+497,Je vais de Nice à Lyon pour le week-end,TRIP_ORDER,Nice,Lyon
+498,Visiter le château de Versailles,NOT_TRIP,NULL,NULL
+499,Je suis très heureux aujourd'hui,NOT_TRIP,NULL,NULL
+500,Je pars de Montpellier à Bordeaux pour un événement,TRIP_ORDER,Montpellier,Bordeaux
+501,Je prends le train de Marseille à Nice pour le week-end,TRIP_ORDER,Marseille,Nice
+502,Je vais de Nantes à Lyon pour une formation,TRIP_ORDER,Nantes,Lyon
+503,Je veux aller à Toulouse pour le concert de ce soir,TRIP_ORDER,NULL,Toulouse
+504,Prendre le bus de Lille à Paris pour un match de foot,TRIP_ORDER,Lille,Paris
+505,Je pars d'Amiens à Strasbourg pour le festival de musique,TRIP_ORDER,Amiens,Strasbourg
+506,Je vais à Nice pour le carnaval,TRIP_ORDER,NULL,Nice
+507,Réserver un vol de Lyon à Marseille,TRIP_ORDER,Lyon,Marseille
+508,Je pars de Bordeaux à Toulouse pour les vacances,TRIP_ORDER,Bordeaux,Toulouse
+509,Je veux aller à Grenoble pour faire du ski,TRIP_ORDER,NULL,Grenoble
+510,Je prends le train de Rennes à Paris pour un rendez-vous,TRIP_ORDER,Rennes,Paris
+511,Je suis à Lyon et je veux aller à Nice,TRIP_ORDER,Lyon,Nice
+512,Visiter des amis à Marseille ce week-end,NOT_TRIP,NULL,NULL
+513,Réserver une voiture pour aller de Lille à Strasbourg,TRIP_ORDER,Lille,Strasbourg
+514,Je pars de Dijon à Bordeaux pour une réunion,TRIP_ORDER,Dijon,Bordeaux
+515,Je veux aller à Lyon pour le festival de lumière,TRIP_ORDER,NULL,Lyon
+516,Récupérer mes affaires à l'hôtel de Nantes,NOT_TRIP,NULL,NULL
+517,Je vais de Paris à Caen pour un week-end détente,TRIP_ORDER,Paris,Caen
+518,Je prends un train de Montpellier à Nice,TRIP_ORDER,Montpellier,Nice
+519,Je vais à Saint-Malo pour le festival,TRIP_ORDER,NULL,Saint-Malo
+520,Réserver un taxi pour aller de Marseille à Nice,TRIP_ORDER,Marseille,Nice
+521,Aller de Paris à Lille pour une exposition,TRIP_ORDER,Paris,Lille
+522,Je veux aller à Reims pour une dégustation de vin,TRIP_ORDER,NULL,Reims
+523,Je vais à Lyon pour un stage d'été,TRIP_ORDER,NULL,Lyon
+524,Je prends le bus de Strasbourg à Montpellier,TRIP_ORDER,Strasbourg,Montpellier
+525,Je pars d'Orléans à Nantes pour le week-end,TRIP_ORDER,Orléans,Nantes
+526,Visiter des proches à Caen,NOT_TRIP,NULL,NULL
+527,Je prends le train de Lille à Paris pour un spectacle,TRIP_ORDER,Lille,Paris
+528,Je vais à Dijon pour un séminaire,TRIP_ORDER,NULL,Dijon
+529,Je veux aller à Marseille pour les vacances d'été,TRIP_ORDER,NULL,Marseille
+530,Récupérer mon colis à l'agence de Lyon,NOT_TRIP,NULL,NULL
+531,Je vais à Tours pour une conférence sur le vin,TRIP_ORDER,NULL,Tours
+532,Je pars de Bordeaux à Rennes pour une formation,TRIP_ORDER,Bordeaux,Rennes
+533,Je prends le bus de Nice à Avignon pour un festival,TRIP_ORDER,Nice,Avignon
+534,Je vais à Lyon pour une visite culturelle,TRIP_ORDER,NULL,Lyon
+535,Je suis en vacances à Montpellier,NOT_TRIP,NULL,NULL
+536,Réserver un train de Paris à Marseille pour le week-end,TRIP_ORDER,Paris,Marseille
+537,Je vais à Angers pour un événement sportif,TRIP_ORDER,NULL,Angers
+538,Je pars de Toulouse à Nice pour un concert,TRIP_ORDER,Toulouse,Nice
+539,Je veux aller à La Rochelle pour un séjour détente,TRIP_ORDER,NULL,La Rochelle
+540,Je vais de Strasbourg à Lille pour une réunion,TRIP_ORDER,Strasbourg,Lille
+541,Je suis en voyage d'affaires à Bordeaux,NOT_TRIP,NULL,NULL
+542,Je vais à Clermont-Ferrand pour un mariage,TRIP_ORDER,NULL,Clermont-Ferrand
+543,Je pars de Lyon à Paris pour un week-end,TRIP_ORDER,Lyon,Paris
+544,Je veux aller à Nice pour le festival de jazz,TRIP_ORDER,NULL,Nice
+545,Je prends un vol de Nantes à Toulouse,TRIP_ORDER,Nantes,Toulouse
+546,Je vais à Caen pour un projet,TRIP_ORDER,NULL,Caen
+547,Visiter le musée à Marseille ce week-end,NOT_TRIP,NULL,NULL
+548,Je prends le train de Lille à Bordeaux pour le festival,TRIP_ORDER,Lille,Bordeaux
+549,Je vais à Paris pour une exposition d'art,TRIP_ORDER,NULL,Paris
+550,Je veux aller à Lyon pour une formation professionnelle,TRIP_ORDER,NULL,Lyon
+551,Récupérer ma voiture à l'aéroport de Nice,NOT_TRIP,NULL,NULL
+552,Je pars de Rennes à Marseille pour le nouvel an,TRIP_ORDER,Rennes,Marseille
+553,Je vais à Nancy pour un concert de musique classique,TRIP_ORDER,NULL,Nancy
+554,Je prends le bus de Bordeaux à Nantes,TRIP_ORDER,Bordeaux,Nantes
+555,Je veux aller à Lyon pour le marathon,TRIP_ORDER,NULL,Lyon
+556,Je pars d'Amiens à Strasbourg pour le week-end,TRIP_ORDER,Amiens,Strasbourg
+557,Je vais à Marseille pour un séminaire,TRIP_ORDER,NULL,Marseille
+558,Visiter le château à Tours,NOT_TRIP,NULL,NULL
+559,Je prends le train de Nice à Montpellier pour un événement,TRIP_ORDER,Nice,Montpellier
+560,Je veux aller à Toulouse pour le festival de musique,TRIP_ORDER,NULL,Toulouse
+561,Je vais de Paris à Lyon pour un mariage,TRIP_ORDER,Paris,Lyon
+562,Je suis à Dijon et je vais à Lyon,TRIP_ORDER,Dijon,Lyon
+563,Je vais à Avignon pour le festival de théâtre,TRIP_ORDER,NULL,Avignon
+564,Je pars de Montpellier à Lille pour le week-end,TRIP_ORDER,Montpellier,Lille
+565,Je veux aller à Caen pour le nouvel an,TRIP_ORDER,NULL,Caen
+566,Je prends le train de Strasbourg à Paris,TRIP_ORDER,Strasbourg,Paris
+567,Je vais à Saint-Denis pour une conférence,TRIP_ORDER,NULL,Saint-Denis
+568,Je suis en vacances à Nice,NOT_TRIP,NULL,NULL
+569,Je vais à Toulouse pour un événement sportif,TRIP_ORDER,NULL,Toulouse
+570,Je pars de Lyon à Bordeaux pour un week-end,TRIP_ORDER,Lyon,Bordeaux
+571,Je veux aller à Nantes pour une formation,TRIP_ORDER,NULL,Nantes
+572,Récupérer mes affaires à l'université à Lille,NOT_TRIP,NULL,NULL
+573,Je vais à Rouen pour une exposition,TRIP_ORDER,NULL,Rouen
+574,Je pars de Nice à Lyon pour le concert,TRIP_ORDER,Nice,Lyon
+575,Je veux aller à Clermont-Ferrand pour les vacances,TRIP_ORDER,NULL,Clermont-Ferrand
+576,Je prends le bus de Lille à Marseille pour le festival,TRIP_ORDER,Lille,Marseille
+577,Je vais à Avignon pour une conférence sur le vin,TRIP_ORDER,NULL,Avignon
+578,Je pars de Strasbourg à Nantes pour le week-end,TRIP_ORDER,Strasbourg,Nantes
+579,Je vais à Bordeaux pour un séminaire,TRIP_ORDER,NULL,Bordeaux
+580,Visiter le parc à Lyon,NOT_TRIP,NULL,NULL
+581,Je prends un vol de Paris à Nice pour le week-end,TRIP_ORDER,Paris,Nice
+582,Je vais à Toulouse pour un séminaire,TRIP_ORDER,NULL,Toulouse
+583,Je pars de Dijon à Marseille pour les vacances,TRIP_ORDER,Dijon,Marseille
+584,Je veux aller à Nantes pour un projet professionnel,TRIP_ORDER,NULL,Nantes
+585,Je vais à Lyon pour le marathon,TRIP_ORDER,NULL,Lyon
+586,Je prends le train de Lille à Rennes pour le week-end,TRIP_ORDER,Lille,Rennes
+587,Je vais à Paris pour une exposition d'art,TRIP_ORDER,NULL,Paris
+588,Je suis à Caen et je vais à Nice,TRIP_ORDER,Caen,Nice
+589,Je veux aller à Bordeaux pour le festival,TRIP_ORDER,NULL,Bordeaux
+590,Je pars de Montpellier à Lille pour le nouvel an,TRIP_ORDER,Montpellier,Lille
+591,Récupérer mon colis à l'agence à Lyon,NOT_TRIP,NULL,NULL
+592,Je vais à Clermont-Ferrand pour le festival de musique,TRIP_ORDER,NULL,Clermont-Ferrand
+593,Je pars de Nice à Toulouse pour un concert,TRIP_ORDER,Nice,Toulouse
+594,Je veux aller à Lyon pour une exposition,TRIP_ORDER,NULL,Lyon
+595,Je vais à Nantes pour un stage,TRIP_ORDER,NULL,Nantes
+596,Je prends le train de Marseille à Paris pour le week-end,TRIP_ORDER,Marseille,Paris
+597,Je veux aller à Reims pour le festival du vin,TRIP_ORDER,NULL,Reims
+598,Je vais à Lyon pour un séminaire,TRIP_ORDER,NULL,LYON
+599,Je pars de Bordeaux à Lyon pour une réunion,TRIP_ORDER,Bordeaux,Lyon
+600,Je veux aller à Paris pour un concert,TRIP_ORDER,NULL,Paris
+601,Je vais à Toulouse pour un séjour en famille,TRIP_ORDER,NULL,Toulouse
+602,Je prends le train de Marseille à Nice pour les vacances,TRIP_ORDER,Marseille,Nice
+603,Je pars de Lille à Strasbourg pour une conférence,TRIP_ORDER,Lille,Strasbourg
+604,Je vais à Caen pour une exposition,TRIP_ORDER,NULL,Caen
+605,Je veux aller à Montpellier pour un séminaire,TRIP_ORDER,NULL,Montpellier
+606,Je prends le bus de Lyon à Grenoble pour le week-end,TRIP_ORDER,Lyon,Grenoble
+607,Je vais à Nantes pour un projet,TRIP_ORDER,NULL,Nantes
+608,Récupérer mes affaires à l'hôtel à Nice,NOT_TRIP,NULL,NULL
+609,Je vais à Dijon pour un événement sportif,TRIP_ORDER,NULL,Dijon
+610,Je pars de Strasbourg à Marseille pour les vacances,TRIP_ORDER,Strasbourg,Marseille
+611,Je veux aller à Lyon pour un mariage,TRIP_ORDER,NULL,Lyon
+612,Je prends le train de Paris à Lille pour un spectacle,TRIP_ORDER,Paris,Lille
+613,Je vais à Avignon pour une réunion,TRIP_ORDER,NULL,Avignon
+614,Visiter le château à Nantes,NOT_TRIP,NULL,NULL
+615,Je veux aller à Bordeaux pour le nouvel an,TRIP_ORDER,NULL,Bordeaux
+616,Je prends un vol de Nice à Toulouse pour un événement,TRIP_ORDER,Nice,Toulouse
+617,Je pars de Rennes à Paris pour une formation,TRIP_ORDER,Rennes,Paris
+618,Je vais à Clermont-Ferrand pour un mariage,TRIP_ORDER,NULL,Clermont-Ferrand
+619,Je veux aller à Strasbourg pour le festival,TRIP_ORDER,NULL,Strasbourg
+620,Je prends le train de Lyon à Nice pour le week-end,TRIP_ORDER,Lyon,Nice
+621,Je vais à Marseille pour un concert,TRIP_ORDER,NULL,Marseille
+622,Je pars de Lille à Nantes pour un stage,TRIP_ORDER,Lille,Nantes
+623,Je veux aller à Toulouse pour un séminaire,TRIP_ORDER,NULL,Toulouse
+624,Récupérer mon colis à l'agence à Lyon,NOT_TRIP,NULL,NULL
+625,Je vais à Nice pour les vacances,TRIP_ORDER,NULL,Nice
+626,Je prends le bus de Paris à Bordeaux pour le week-end,TRIP_ORDER,Paris,Bordeaux
+627,Je veux aller à Lyon pour un festival,TRIP_ORDER,NULL,Lyon
+628,Je vais à Dijon pour un événement culturel,TRIP_ORDER,NULL,Dijon
+629,Je pars de Marseille à Caen pour le nouvel an,TRIP_ORDER,Marseille,Caen
+630,Je veux aller à Clermont-Ferrand pour un concert,TRIP_ORDER,NULL,Clermont-Ferrand
+631,Je prends le train de Toulouse à Montpellier pour le week-end,TRIP_ORDER,Toulouse,Montpellier
+632,Je vais à Strasbourg pour une conférence,TRIP_ORDER,NULL,Strasbourg
+633,Je veux aller à Avignon pour le festival de théâtre,TRIP_ORDER,NULL,Avignon
+634,Je pars de Nice à Lyon pour un spectacle,TRIP_ORDER,Nice,Lyon
+635,Je vais à Nantes pour un événement sportif,TRIP_ORDER,NULL,Nantes
+636,Je veux aller à Bordeaux pour une exposition,TRIP_ORDER,NULL,Bordeaux
+637,Je prends un vol de Lyon à Paris pour un rendez-vous,TRIP_ORDER,Lyon,Paris
+638,Je vais à Caen pour un festival de musique,TRIP_ORDER,NULL,Caen
+639,Visiter le musée à Marseille,NOT_TRIP,NULL,NULL
+640,Je vais à Lille pour une réunion,TRIP_ORDER,NULL,Lille
+641,Je pars de Toulouse à Nice pour un séminaire,TRIP_ORDER,Toulouse,Nice
+642,Je veux aller à Lyon pour un stage,TRIP_ORDER,NULL,Lyon
+643,Je prends le bus de Marseille à Lille pour un événement,TRIP_ORDER,Marseille,Lille
+644,Je vais à Nantes pour une conférence,TRIP_ORDER,NULL,Nantes
+645,Je veux aller à Paris pour un festival,TRIP_ORDER,NULL,Paris
+646,Je pars de Dijon à Toulouse pour les vacances,TRIP_ORDER,Dijon,Toulouse
+647,Je vais à Clermont-Ferrand pour un séminaire,TRIP_ORDER,NULL,Clermont-Ferrand
+648,Je veux aller à Nice pour un événement,TRIP_ORDER,NULL,Nice
+649,Récupérer mes affaires à l'hôtel à Lyon,NOT_TRIP,NULL,NULL
+650,Je vais à Strasbourg pour un concert,TRIP_ORDER,NULL,Strasbourg
+651,Je pars de Marseille à Toulouse pour le week-end,TRIP_ORDER,Marseille,Toulouse
+652,Je veux aller à Paris pour un salon professionnel,TRIP_ORDER,NULL,Paris
+653,Je vais à Lyon pour un festival de cinéma,TRIP_ORDER,NULL,Lyon
+654,Je prends le train de Nice à Bordeaux pour un mariage,TRIP_ORDER,Nice,Bordeaux
+655,Je vais à Rennes pour une réunion d'affaires,TRIP_ORDER,NULL,Rennes
+656,Je veux aller à Avignon pour le festival de danse,TRIP_ORDER,NULL,Avignon
+657,Je prends le bus de Lille à Clermont-Ferrand pour un événement,TRIP_ORDER,Lille,Clermont-Ferrand
+658,Je vais à Dijon pour une exposition de peinture,TRIP_ORDER,NULL,Dijon
+659,Je pars de Strasbourg à Paris pour un week-end,TRIP_ORDER,Strasbourg,Paris
+660,Je veux aller à Nantes pour un festival de musique,TRIP_ORDER,NULL,Nantes
+661,Je prends le train de Lyon à Marseille pour un concert,TRIP_ORDER,Lyon,Marseille
+662,Je vais à Bordeaux pour un séminaire sur le vin,TRIP_ORDER,NULL,Bordeaux
+663,Récupérer mon colis à l'agence à Nice,NOT_TRIP,NULL,NULL
+664,Je vais à Toulouse pour un stage d'été,TRIP_ORDER,NULL,Toulouse
+665,Je veux aller à Saint-Étienne pour un événement sportif,TRIP_ORDER,NULL,Saint-Étienne
+666,Je pars de Caen à Lyon pour une conférence,TRIP_ORDER,Caen,Lyon
+667,Je vais à Strasbourg pour un séminaire,TRIP_ORDER,NULL,Strasbourg
+668,Je veux aller à Paris pour un concert de jazz,TRIP_ORDER,NULL,Paris
+669,Je prends le bus de Marseille à Nice pour le carnaval,TRIP_ORDER,Marseille,Nice
+670,Je vais à Lille pour une exposition de photographie,TRIP_ORDER,NULL,Lille
+671,Je veux aller à Clermont-Ferrand pour une conférence,TRIP_ORDER,NULL,Clermont-Ferrand
+672,Je pars de Nantes à Toulouse pour le festival de théâtre,TRIP_ORDER,Nantes,Toulouse
+673,Je vais à Dijon pour un stage,TRIP_ORDER,NULL,Dijon
+674,Je veux aller à Lyon pour une visite culturelle,TRIP_ORDER,NULL,Lyon
+675,Je prends le train de Rennes à Paris pour une réunion,TRIP_ORDER,Rennes,Paris
+676,Je vais à Avignon pour un concert,TRIP_ORDER,NULL,Avignon
+677,Je pars de Strasbourg à Marseille pour un séminaire,TRIP_ORDER,Strasbourg,Marseille
+678,Je veux aller à Nice pour le festival de jazz,TRIP_ORDER,NULL,Nice
+679,Récupérer mes affaires à l'hôtel à Toulouse,NOT_TRIP,NULL,NULL
+680,Je vais à Bordeaux pour un événement culturel,TRIP_ORDER,NULL,Bordeaux
+681,Je veux aller à Lyon pour un mariage,TRIP_ORDER,NULL,Lyon
+682,Je prends le train de Marseille à Nantes pour le nouvel an,TRIP_ORDER,Marseille,Nantes
+683,Je vais à Paris pour une exposition de mode,TRIP_ORDER,NULL,Paris
+684,Je veux aller à Clermont-Ferrand pour un séminaire,TRIP_ORDER,NULL,Clermont-Ferrand
+685,Je pars de Lille à Strasbourg pour une conférence,TRIP_ORDER,Lille,Strasbourg
+686,Je vais à Caen pour un concert de musique classique,TRIP_ORDER,NULL,Caen
+687,Je veux aller à Toulouse pour un projet professionnel,TRIP_ORDER,NULL,Toulouse
+688,Je prends le bus de Dijon à Lyon pour une formation,TRIP_ORDER,Dijon,Lyon
+689,Je vais à Nice pour le carnaval,TRIP_ORDER,NULL,Nice
+690,Je veux aller à Nantes pour un événement,TRIP_ORDER,NULL,Nantes
+691,Je pars de Rennes à Bordeaux pour le week-end,TRIP_ORDER,Rennes,Bordeaux
+692,Je vais à Paris pour un stage,TRIP_ORDER,NULL,Paris
+693,Je prends le train de Marseille à Lyon pour un séminaire,TRIP_ORDER,Marseille,Lyon
+694,Je veux aller à Strasbourg pour le festival de musique,TRIP_ORDER,NULL,Strasbourg
+695,Je vais à Clermont-Ferrand pour une réunion,TRIP_ORDER,NULL,Clermont-Ferrand
+696,Récupérer mon colis à l'agence à Dijon,NOT_TRIP,NULL,NULL
+697,Je veux aller à Lyon pour un festival de gastronomie,TRIP_ORDER,NULL,Lyon
+698,Je pars de Toulouse à Nice pour une exposition,TRIP_ORDER,Toulouse,Nice
+699,Je vais à Nantes pour une conférence,TRIP_ORDER,NULL,Nantes
+700,Je prends le bus de Bordeaux à Paris pour le week-end,TRIP_ORDER,Bordeaux,Paris
+701,Je pars de Marseille à Clermont-Ferrand pour un séminaire,TRIP_ORDER,Marseille,Clermont-Ferrand
+702,Je veux aller à Lyon pour un festival de jazz,TRIP_ORDER,NULL,Lyon
+703,Je vais à Paris pour une réunion d'affaires,TRIP_ORDER,NULL,Paris
+704,Je prends le train de Toulouse à Nice pour un mariage,TRIP_ORDER,Toulouse,Nice
+705,Je vais à Strasbourg pour un concert,TRIP_ORDER,NULL,Strasbourg
+706,Je veux aller à Avignon pour un événement culturel,TRIP_ORDER,NULL,Avignon
+707,Je pars de Lille à Bordeaux pour un séminaire,TRIP_ORDER,Lille,Bordeaux
+708,Je vais à Dijon pour un stage de cuisine,TRIP_ORDER,NULL,Dijon
+709,Je veux aller à Nantes pour un salon professionnel,TRIP_ORDER,NULL,Nantes
+710,Je prends le bus de Lyon à Marseille pour le week-end,TRIP_ORDER,Lyon,Marseille
+711,Je vais à Caen pour un festival de théâtre,TRIP_ORDER,NULL,Caen
+712,Je veux aller à Clermont-Ferrand pour un concert,TRIP_ORDER,NULL,Clermont-Ferrand
+713,Je pars de Nice à Toulouse pour un séminaire,TRIP_ORDER,Nice,Toulouse
+714,Je vais à Lille pour une exposition de sculpture,TRIP_ORDER,NULL,Lille
+715,Je veux aller à Bordeaux pour une visite guidée,TRIP_ORDER,NULL,Bordeaux
+716,Récupérer mes affaires à l'hôtel à Paris,NOT_TRIP,NULL,NULL
+717,Je vais à Lyon pour un événement gastronomique,TRIP_ORDER,NULL,Lyon
+718,Je prends le train de Strasbourg à Nantes pour un festival,TRIP_ORDER,Strasbourg,Nantes
+719,Je veux aller à Avignon pour une réunion,TRIP_ORDER,NULL,Avignon
+720,Je pars de Marseille à Lille pour une conférence,TRIP_ORDER,Marseille,Lille
+721,Je vais à Toulouse pour une exposition,TRIP_ORDER,NULL,Toulouse
+722,Je veux aller à Dijon pour un stage en arts culinaires,TRIP_ORDER,NULL,Dijon
+723,Je prends le bus de Bordeaux à Lyon pour une réunion,TRIP_ORDER,Bordeaux,Lyon
+724,Je vais à Nice pour un concert,TRIP_ORDER,NULL,Nice
+725,Je veux aller à Paris pour un festival de cinéma,TRIP_ORDER,NULL,Paris
+726,Je pars de Clermont-Ferrand à Marseille pour un événement,TRIP_ORDER,Clermont-Ferrand,Marseille
+727,Je vais à Nantes pour un séminaire,TRIP_ORDER,NULL,Nantes
+728,Je veux aller à Strasbourg pour un stage,TRIP_ORDER,NULL,Strasbourg
+729,Je prends le train de Lyon à Caen pour le week-end,TRIP_ORDER,Lyon,Caen
+730,Je vais à Lille pour une conférence,TRIP_ORDER,NULL,Lille
+731,Je veux aller à Bordeaux pour un festival de musique,TRIP_ORDER,NULL,Bordeaux
+732,Récupérer mon colis à l'agence à Toulouse,NOT_TRIP,NULL,NULL
+733,Je vais à Marseille pour un événement culturel,TRIP_ORDER,NULL,Marseille
+734,Je pars de Nice à Lyon pour un concert,TRIP_ORDER,Nice,Lyon
+735,Je veux aller à Paris pour un séminaire,TRIP_ORDER,NULL,Paris
+736,Je prends le bus de Strasbourg à Dijon pour un événement,TRIP_ORDER,Strasbourg,Dijon
+737,Je vais à Clermont-Ferrand pour un salon professionnel,TRIP_ORDER,NULL,Clermont-Ferrand
+738,Je veux aller à Avignon pour un festival de danse,TRIP_ORDER,NULL,Avignon
+739,Je pars de Nantes à Toulouse pour une réunion,TRIP_ORDER,Nantes,Toulouse
+740,Je vais à Lyon pour un événement sportif,TRIP_ORDER,NULL,Lyon
+741,Je veux aller à Caen pour un concert de rock,TRIP_ORDER,NULL,Caen
+742,Je prends le train de Marseille à Paris pour une réunion,TRIP_ORDER,Marseille,Paris
+743,Je vais à Lille pour un événement gastronomique,TRIP_ORDER,NULL,Lille
+744,Je veux aller à Bordeaux pour un festival de théâtre,TRIP_ORDER,NULL,Bordeaux
+745,Récupérer mes affaires à l'hôtel à Nantes,NOT_TRIP,NULL,NULL
+746,Je vais à Toulouse pour un concert,TRIP_ORDER,NULL,Toulouse
+747,Je pars de Strasbourg à Nice pour un festival,TRIP_ORDER,Strasbourg,Nice
+748,Je veux aller à Dijon pour une exposition,TRIP_ORDER,NULL,Dijon
+749,Je prends le bus de Lyon à Clermont-Ferrand pour le week-end,TRIP_ORDER,Lyon,Clermont-Ferrand
+750,Je vais à Lunel pour un événement,TRIP_ORDER,NULL,Lunel
+751,Comment aller à Narbonne ?,TRIP_ORDER,NULL,Narbonne
+751,Comment aller à Paris ?,TRIP_ORDER,NULL,Paris
